@@ -1,0 +1,750 @@
+/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain))doris */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none
+}
+
+body {
+    font-family: "微軟正黑體", Microsoft JhengHei;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 電腦*/
+
+@media only screen and (min-width: 769px) {
+    h1 {
+        color: #03F;
+        font-size: 70px;
+    }
+    header {
+        background-color: #00293c;
+        width: 100%;
+        height: 80px;
+    }
+    .topBox {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .logoBox {
+        text-align: left;
+    }
+    .menuBox {
+        position: absolute;
+        left: 280px;
+        top: 35px;
+    }
+    .menuBox ul li {
+        float: left;
+        padding-left: 40px;
+        color: #fff;
+    }
+    .menuBox ul li a {
+        color: #fff;
+        border-bottom: none;
+        list-style: none;
+        text-decoration: none;
+    }
+    .menuBox ul li a:hover {
+        color: #00a0e9;
+        border-bottom: 1px #00a0e9 solid;
+    }
+    .lanBox {
+        margin-top: -45px;
+        float: right;
+        color: #fff;
+    }
+    .lanBox img {
+        width: 15%;
+        padding-right: 8px;
+    }
+    /*BBN*/
+    .BBNBOX {
+        background-image: url("../img/images/bBn_07.jpg");
+        background-position: center top;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        height: 1000px;
+    }
+    /*有聲書*/
+    .slidertop {
+        display: none;
+    }
+    .yuShen_title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        line-height: 30px;
+        padding: 60px;
+        letter-spacing: 10px;
+    }
+    .yuShenBox {
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .yuShenBox ul li {
+        float: left;
+        width: 32%;
+        margin-left: 10px;
+    }
+    .yuShenBox ul li img {
+        width: 99%;
+    }
+    .yus_text01 {
+        text-align: left;
+        line-height: 30px;
+        font-size: 18px;
+        padding: 18px;
+    }
+    .yus_text02 {
+        text-align: left;
+        padding: 0 18px;
+        line-height: 28px;
+        font-size: 14px;
+    }
+    .btnBox {
+        background-color: #00a0e9;
+        color: #fff;
+        width: 300px;
+        border-radius: 50px;
+        margin: 90px auto;
+        padding: 20px;
+    }
+    /*電子書*/
+    .denZiBox {
+        background-image: url("../img/images/denZi_bg_21.jpg");
+        width: 100%;
+        background-position: center top;
+        height: 1000px;
+    }
+    .denZi_title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        color: black;
+        line-height: 30px;
+        padding: 180px 0 0 0;
+        letter-spacing: 10px;
+    }
+    .denZicont {
+        width: 1165px;
+        background-color: #00a0e9;
+        padding: 10px 10px 3px 0;
+        margin: 50px auto;
+    }
+    .denZicont ul li {
+        float: left;
+        padding-left: 8px;
+    }
+    .denZicont ul li img {
+        width: 100%;
+        padding-top: 5px;
+    }
+    /*寫作人生*/
+    .writeLifeBox {
+        width: 1200px;
+        margin: 100px auto;
+    }
+    .WTleftBox {
+        float: left;
+    }
+    .WTleftBox ul li {
+        float: left;
+        border: 5px #00a0e9 solid;
+        margin: 10px;
+        height: 225px;
+    }
+    .WTRightBox {
+        float: left;
+        padding-left: 30px;
+    }
+    .dowebok {
+        display: none;
+    }
+    .ad_BN {
+        background-image: url("../img/images/BNAD.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin: 0 auto;
+        height: 800px;
+    }
+    .more_btn {
+        display: none;
+    }
+    /*footer*/
+    #footer {
+        width: 100%;
+        background-color: #00a0e9;
+        color: #fff;
+        height: 200px;
+        overflow: hidden;
+    }
+    .footerBox {
+        height: 200px;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .sitemap {
+        float: left;
+        width: 33%;
+        line-height: 30px;
+    }
+    .mailservice {
+        float: left;
+        width: 33%;
+        line-height: 30px;
+        text-align: center;
+    }
+    .connectIcon {
+        float: right;
+        width: 33%;
+    }
+    .connectIcon ul li {
+        float: right;
+        padding-right: 10px;
+    }
+}
+
+/* 平板 */
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    h1 {
+        color: #6F0;
+        font-size: 10px;
+    }
+    header {
+        background-color: #00293c;
+        width: 100%;
+        height: 80px;
+    }
+    .topBox {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .logoBox {
+        text-align: left;
+    }
+    .menuBox {
+        position: absolute;
+        top: 105px;
+        margin: 0 auto;
+        left: 22%;
+    }
+    .menuBox ul li {
+        float: left;
+        color: rgb(8, 8, 8);
+        text-align: center;
+        width: 100px;
+    }
+    .menuBox ul li a:hover {
+        color: #00a0e9;
+        border-bottom: 1px #00a0e9 solid;
+    }
+    .menuBox ul li a {
+        color: #00293c;
+        border-bottom: none;
+        list-style: none;
+        text-decoration: none;
+    }
+    .lanBox {
+        margin-top: -40px;
+        float: right;
+        color: #fff;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+    .lanBox img {
+        width: 15%;
+        padding-right: 8px;
+    }
+    /*BBN*/
+    .BBNBOX {
+        background-image: url("../img/images/topBn_760.jpg");
+        background-position: center top;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 70px auto 30px auto;
+        height: 416px;
+    }
+    /*有聲書*/
+    .yuShen_title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+        line-height: 0px;
+        padding: 20px;
+        letter-spacing: 10px;
+    }
+    .yuShenBox {
+        display: none;
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .yuShenBox ul li {
+        float: left;
+        width: 32%;
+        margin-left: 10px;
+    }
+    .yuShenBox ul li img {
+        width: 99%;
+    }
+    .yus_text01 {
+        text-align: left;
+        line-height: 30px;
+        font-size: 18px;
+        padding: 18px;
+    }
+    .yus_text02 {
+        text-align: left;
+        padding: 0 18px;
+        line-height: 28px;
+        font-size: 14px;
+    }
+    .btnBox {
+        background-color: #00a0e9;
+        color: #fff;
+        width: 300px;
+        border-radius: 50px;
+        margin: 90px auto;
+        padding: 20px;
+    }
+    /*slider*/
+    .slidertop {
+        overflow: hidden;
+        width: 100%;
+    }
+    .more_btnone {
+        background-color: #00a0e9;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #fff;
+        text-align: center;
+        margin: 30px;
+    }
+    /*電子書*/
+    .denZiBox {
+        background-image: url("../img/images/denZi_bg_21.jpg");
+        width: 100%;
+        background-position: center top;
+    }
+    .denZi_title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+        line-height: 30px;
+        padding: 60px 0 0 0;
+        letter-spacing: 10px;
+    }
+    .denZicont {
+        background-color: #00a0e9;
+        padding: 10px 10px 3px 0;
+        margin: 50px auto;
+    }
+    .denZicont ul li {
+        float: none;
+        padding-left: 8px;
+    }
+    .denZicont ul li img {
+        width: 99%;
+        padding-top: 5px;
+    }
+    /*寫作人生*/
+    .writeLifeBox {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .WTleftBox {
+        float: none;
+        display: none;
+    }
+    .WTleftBox ul li {
+        float: left;
+        border: 5px #00a0e9 solid;
+        margin: 10px;
+    }
+    .WTRightBox {
+        display: none;
+        float: none;
+        padding-left: 30px;
+    }
+    /*dowebok*/
+    .write_title {
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        border-bottom: black 1px solid;
+        line-height: 50px;
+        letter-spacing: 3px;
+    }
+    .dowbok_txt {
+        font-size: 14px;
+        overflow: hidden;
+        line-height: 22px;
+        padding-bottom: 40px;
+        text-align: center;
+        color: #00a0e9;
+    }
+    /*ＡＤ區*/
+    .ad_BN {
+        position: relative;
+        background-image: url("../img/images/BNAD_768.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin: 0 auto;
+        height: 416px;
+    }
+    .more_btn {
+        position: absolute;
+        background-color: #00a0e9;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #fff;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 36%;
+    }
+    /*footer*/
+    #footer {
+        width: 100%;
+        background-color: #00a0e9;
+        color: #fff;
+        overflow: hidden;
+    }
+    .footerBox {
+        margin: 50px auto;
+        padding: 10px;
+    }
+    .sitemap {
+        float: none;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .mailservice {
+        float: none;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .connectIcon {
+        float: none;
+        padding-left: 20%;
+    }
+    .connectIcon ul li {
+        float: left;
+        padding-right: 10px;
+        text-align: center;
+    }
+}
+
+/* 手機 */
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+    h1 {
+        color: #6F0;
+        font-size: 10px;
+    }
+    header {
+        background-color: #00293c;
+        width: 100%;
+        height: 80px;
+    }
+    .topBox {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .logoBox {
+        text-align: left;
+    }
+    .menuBox {
+        position: absolute;
+        left: 0%;
+        top: 105px;
+    }
+    .menuBox ul li {
+        float: left;
+        padding-left: 74px;
+        color: rgb(8, 8, 8);
+    }
+    .menuBox ul li a:hover {
+        color: #00a0e9;
+        border-bottom: 1px #00a0e9 solid;
+    }
+    .menuBox ul li a {
+        color: #00293c;
+        border-bottom: none;
+        list-style: none;
+        text-decoration: none;
+    }
+    .lanBox {
+        margin-top: -40px;
+        float: right;
+        color: #fff;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+    .lanBox img {
+        display: none;
+    }
+    /*BBN*/
+    .BBNBOX {
+        background-image: url("../img/images/topBnM.jpg");
+        background-position: center top;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 70px auto 30px auto;
+        height: 416px;
+    }
+    /*有聲書*/
+    .yuShen_title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+        line-height: 0px;
+        padding: 20px;
+        letter-spacing: 10px;
+    }
+    .yuShenBox {
+        display: none;
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .yuShenBox ul li {
+        float: left;
+        width: 32%;
+        margin-left: 10px;
+    }
+    .yuShenBox ul li img {
+        width: 99%;
+    }
+    .yus_text01 {
+        text-align: left;
+        line-height: 30px;
+        font-size: 18px;
+        padding: 18px;
+    }
+    .yus_text02 {
+        text-align: left;
+        padding: 0 18px;
+        line-height: 28px;
+        font-size: 14px;
+    }
+    .btnBox {
+        background-color: #00a0e9;
+        color: #fff;
+        width: 300px;
+        border-radius: 50px;
+        margin: 90px auto;
+        padding: 20px;
+    }
+    /*slider*/
+    .slidertop {
+        overflow: hidden;
+        width: 100%;
+    }
+    .more_btnone {
+        background-color: #00a0e9;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #fff;
+        text-align: center;
+        margin: 30px;
+    }
+    /*電子書*/
+    .denZiBox {
+        background-image: url("../img/images/denZi_bg_21.jpg");
+        width: 100%;
+        background-position: center top;
+    }
+    .denZi_title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+        line-height: 30px;
+        padding: 60px 0 0 0;
+        letter-spacing: 10px;
+    }
+    .denZicont {
+        background-color: #00a0e9;
+        padding: 10px 10px 3px 0;
+        margin: 50px auto;
+    }
+    .denZicont ul li {
+        float: none;
+        padding-left: 8px;
+    }
+    .denZicont ul li img {
+        width: 99%;
+        padding-top: 5px;
+    }
+    /*寫作人生*/
+    .writeLifeBox {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .WTleftBox {
+        float: none;
+        display: none;
+    }
+    .WTleftBox ul li {
+        float: left;
+        border: 5px #00a0e9 solid;
+        margin: 10px;
+    }
+    .WTRightBox {
+        display: none;
+        float: none;
+        padding-left: 30px;
+    }
+    /*dowebok*/
+    .write_title {
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        border-bottom: black 1px solid;
+        line-height: 50px;
+        letter-spacing: 3px;
+    }
+    .dowbok_txt {
+        overflow: hidden;
+        line-height: 30px;
+        padding-bottom: 40px;
+        text-align: center;
+        color: #00a0e9;
+    }
+    /*ＡＤ區*/
+    .ad_BN {
+        position: relative;
+        background-image: url("../img/images/footer_bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin: 0 auto;
+        height: 416px;
+    }
+    .more_btn {
+        position: absolute;
+        background-color: #00a0e9;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #fff;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 33%;
+    }
+    /*footer*/
+    #footer {
+        width: 100%;
+        background-color: #00a0e9;
+        color: #fff;
+        overflow: hidden;
+    }
+    .footerBox {
+        margin: 50px auto;
+        padding: 10px;
+    }
+    .sitemap {
+        float: none;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .mailservice {
+        float: none;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .connectIcon {
+        float: none;
+        padding-left: 20%;
+    }
+    .connectIcon ul li {
+        float: left;
+        padding-right: 10px;
+        text-align: center;
+    }
+}
+
+.slick-slide {
+    overflow: hidden;
+    width: 95%;
+    margin: 2px auto;
+}
+
+.slick-slide img {
+    width: 95%;
+    margin: 2px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
